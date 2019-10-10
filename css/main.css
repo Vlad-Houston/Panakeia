@@ -1,3 +1,4 @@
+/* RESET */
 html,
 body,
 div,
@@ -124,14 +125,71 @@ table {
   border-spacing: 0;
 }
 
-.logo-container {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+/* Header */
+.header {
+  width: 100%;
+  height: 132px;
 }
 
-.flexbox {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.nav-item {
+  color: #31353e;
+  font: 400 18px/24px "Roboto Slab", serif;
+}
+
+.nav-active-link,
+.nav-item:hover {
+  min-width: 144px;
+  text-align: center;
+  font: 400 18px/49px;
+  border-radius: 25px;
+  background-color: #dd4b2b;
+}
+
+/* Intro section */
+.intro {
+  width: 100%;
+  height: 100vh;
+  padding: 138px 0;
+  color: #fff;
+  background: url(./../img/intro.png) center center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.intro-title {
+  font: 300 72px "Roboto Slab", serif;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.product-list {
+  margin-bottom: 79px;
+}
+
+.intro-subtitle,
+.product-list .title {
+  font: 700 30px/48px "Roboto Slab", serif;
+}
+
+.product-list__item {
+  max-width: 325px;
+  margin-top: 129px;
+}
+
+.product-list .title {
+  line-height: 0;
+  margin: 35px 0 29px;
+}
+
+.product-list .description {
+  font: 300 15px/30px "Roboto", sans-serif;
+}
+
+/* Buttons */
+.primary-btn {
+  width: 213px;
+  border-radius: 27px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: #ffffff;
+  color: #612316;
+  font: 400 18px/54px "Roboto Slab", serif;
 }

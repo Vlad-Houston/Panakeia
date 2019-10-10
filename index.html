@@ -7,12 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Document</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./css/main.css" />
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700,700i&display=swap" rel="stylesheet">
+  <link href="./css/main.css" rel="stylesheet" />
 </head>
 
 <body>
-  <header class="header">
+  <header class="header d-flex align-items-center">
     <div class="container">
       <nav class="navbar navbar-expand-lg  navbar-light sticky-top">
         <h1>
@@ -20,10 +22,10 @@
             <img src="./img/Panakeia-logo.png" alt="Logotype">
           </a>
         </h1>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
         <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
           <ul class="navbar-nav ml-auto">
@@ -34,7 +36,7 @@
               <a class="nav-link waves-effect waves-light" href="#">Facilisis</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link waves-effect waves-light" href="#">Ante donec</a>
+              <a class="nav-link waves-effect waves-light nav-active-link" href="#">Ante donec</a>
             </li>
             <li class="nav-item">
               <a class="nav-link waves-effect waves-light" href="#">Blandit rhoncus</a>
@@ -47,6 +49,40 @@
       </nav>
     </div>
   </header>
+
+  <section class="intro d-flex align-items-center">
+    <div class="container">
+      <h2 class="intro-title">Integer at tortor ut magna</h2>
+      <h3 class="intro-subtitle">finibus lobortis sed quis tellus.</h3>
+      <ul class="product-list row d-flex justify-content-center">
+        <li class="product-list__item col-sm-12 col-md-12 col-lg-4 col-xl-4">
+          <img src="./img/intro_1.png" alt="">
+          <h3 class="title">Tincidunt</h3>
+          <p class="description">
+            Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus. Nullam tempus egestas
+            efficitur. Sed quam dolor.
+          </p>
+        </li>
+        <li class="product-list__item col-sm-12 col-md-12 col-lg-4 col-xl-4">
+          <img src="./img/intro_3.png" alt="">
+          <h3 class="title">Duis bibendum</h3>
+          <p class="description">
+            Ut arcu arcu, faucibus eu risus blandit, pulvinar viverra justo. Phasellus arcu justo,
+            ullamcorper non diam sit amet, luctus condimentum metus. In hac habitasse platea dictumst.
+          </p>
+        </li>
+        <li class="product-list__item col-sm-12 col-md-12 col-lg-4 col-xl-4">
+          <img src="./img/intro_4.png" alt="">
+          <h3 class="title">Donec ligula</h3>
+          <p class="description">
+            Nullam tempus egestas efficitur. Sed quam dolor, vulputate sed mattis et, sodales quis orci. Ut arcu arcu,
+            faucibus eu risus blandit,.
+          </p>
+        </li>
+      </ul>
+      <button class="primary-btn">Read more</button>
+    </div>
+  </section>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
