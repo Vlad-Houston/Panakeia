@@ -216,6 +216,40 @@ table {
   font: 300 15px/30px "Roboto", sans-serif;
 }
 
+/*subscribe-news*/
+.subscribe-news {
+  width: 100%;
+  min-height: 300px;
+  padding: 111px 0;
+  background: url(./../img/subscribe-news.png) center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.subscribe-content {
+  max-width: 533px;
+  margin: auto;
+}
+
+.subscribe-title {
+  font: 700 30px/48px "Roboto Slab", serif;
+}
+
+.subscribe-text {
+  font: 300 15px/24px "Roboto", sans-serif;
+}
+
+.subscribe-news-form {
+  margin-top: 43px;
+}
+
+.subscribe-input-email {
+  width: 300px;
+  height: 54px;
+  border-radius: 27px;
+}
+
 /* Buttons */
 .primary-btn {
   width: 213px;
