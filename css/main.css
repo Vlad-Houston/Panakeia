@@ -250,6 +250,38 @@ table {
   border-radius: 27px;
 }
 
+/*Posts*/
+.posts {
+  width: 100%;
+  min-height: 1018px;
+  padding: 26px 0 88px;
+  background-color: #fff;
+  color: #191b29;
+}
+
+.post-title {
+  margin: 48px 0 23px;
+  font: 700 30px/48px "Roboto Slab", serif;
+}
+
+.post-review {
+  margin-bottom: 48px;
+  font: 300 16px/30px "Roboto", sans-serif;
+}
+
+.posts .primary-btn {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: #dd4b2b;
+  color: #fff;
+}
+
+.posts .next-color {
+  background-color: #4b4e73;
+}
+
+.post-item {
+  margin-top: 40px;
+}
 /* Buttons */
 .primary-btn {
   width: 213px;
