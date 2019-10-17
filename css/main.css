@@ -282,6 +282,18 @@ table {
 .post-item {
   margin-top: 40px;
 }
+
+/*Lists*/
+
+.lists {
+  width: 100%;
+  min-height: 320px;
+  padding: 97px;
+  background-color: #d75d0e;
+  color: #fff;
+  text-align: center;
+  font: 400 18px/36px "Roboto", sans-serif;
+}
 /* Buttons */
 .primary-btn {
   width: 213px;
